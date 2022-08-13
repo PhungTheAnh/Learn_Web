@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(168, 234, 0), green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    background: white;
+    margin: 10px;
+}
+
+.target{
+    width: 100%;
+    height: 100%;
+    background: url(./assets/img/jett.jpg);
+    background-size: contain;
+}
+
+.hidden{
+    display: none;
+}
+
+.drag-over {
+    border: dashed 3px red;
+}
